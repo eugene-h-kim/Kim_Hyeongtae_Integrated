@@ -81,10 +81,21 @@ header ul li {
   list-style: none;
 }
 
-/* header ul li a {
+/* ************ Banner ************ */
+
+.banner {
   position: relative;
-  display: inline-block;
-  margin: 0 15px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.banner-item-01 {
+  padding: 300px 0px;
+  background-image: url("../images/hero_01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header-text {
   color: #fff;
-  text-decoration: none;
-} */
+}

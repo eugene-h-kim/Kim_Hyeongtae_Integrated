@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* General Stuff */
+
+p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+}
+
+.section-heading {
+  text-align: left;
+  margin-bottom: 60px;
+  margin-bottom: 1px solid #eee;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+}
+
+/* ************ Header *********** */
+
+header {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  height: 80px;
+  background-color: #333;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+header .navbar {
+  padding: 20px 0px;
+}
+
+.navbar .navbar-brand {
+  float: left;
+  margin-top: -12px;
+  outline: none;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar .navbar-band h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  transition: all .3s ease 0s;
+}
+
+.navbar .navbar-brand h2 em{
+  font-style: normal;
+  color: #c1272d;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin: 0px 15px;
+}
+
+.navbar .navbar-nav a.nav-link {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s;
+  margin-top: 5px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-link.active {
+  color: #c1272d;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #c1272d;
+}
+
+/* ************ Banner ************ */
+
+.banner {
+  position: relative;
+  text-align: right;
+  /* padding: 200px 150px; */
+}
+
+.banner-item-01 {
+  color: #fff;
+  padding: 300px 0px;
+  background-image: url("../images/hero_01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* .banner .header-text {
+  padding: 80px;
+} */
+
+.banner .banner-item {
+  max-height: 340px;
+}
+
+.banner .text-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.banner .text-content h4 {
+  color: #c1272d;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.banner .text-content h2 {
+  color: #fff;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.owl-banner .owl-dots .owl-dot {
+  border-radius: 3px;
+}
+
+.owl-banner .owl-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+
+.owl-banner .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.owl-banner .owl-dots .owl-dot:focus {
+  outline: none;
+}
+
+.owl-banner .owl-dots .owl-dot:active {
+  background-color: #fff;
+  opacity: 1;
+}
+
+/* ************ Latest Product ************ */
+
+.latest-products {
+  margin-top: 100px;
+}
+
+.latest-products .section-heading a {
+  float: right;
+  margin-top: -35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #c1272d
+}
+
+.product-item {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+.product-item .down-content {
+  padding: 30px;
+  position: relative;
+}
+
+.product-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.product-item .down-content h4 {
+  font-size: 17px;
+  color: #6e1d2b;
+  margin-bottom: 20px;
+}
+
+.product-item .down-content h6 {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 18px;
+  color: #242424;
+}
+
+.product-item .down-content p {
+  margin-bottom: 20px;
+}
+
+.product-item .down-content ul li {
+  display: inline-block;
+}
+
+.product-item .down-content ul li i {
+  color: #f333f3;
+  font-size: 14px;
+}
+
+.product-item .down-content span {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-size: 13px;
+  color: #c1272d;
+  font-weight: 500;
+}
