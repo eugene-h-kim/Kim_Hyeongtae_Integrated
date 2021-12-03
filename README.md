@@ -14,25 +14,25 @@ Fallbrook is a professional modern ecommerce website template created by myself.
 ### Screenshots
 
 * Index
-![Index Page](../assets/index_page.jpg)
+![Index Page](/assets/index_page.jpg)
 
 
 
 
 * Products
-![Products Page](../assets/products_page.jpg)
+![Products Page](/assets/products_page.jpg)
 
 
 
 
 * About
-![About Page](../assets/about_page.jpg)
+![About Page](/assets/about_page.jpg)
 
 
 
 
 * Contact Us
-![Contact Page](../assets/contact_page.jpg)
+![Contact Page](/assets/contact_page.jpg)
 
 
 
