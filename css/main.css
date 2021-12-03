@@ -277,7 +277,7 @@
     color: #fff;
     font-size: 50px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0px;
   }
 
   .owl-banner .owl-dots .owl-dot {
@@ -565,6 +565,37 @@
     cursor: pointer;
   }
 
-  .products .filters ul li.active {
+  .products .filters ul li.active, 
+  .products .filters ul li:hover {
     color: #6e1d2b;
+  }
+
+  .products ul.pages {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    text-align: center;
+  }
+
+  .products ul.pages li {
+    display: inline-block;
+    margin: 0px 2px;
+  }
+
+  .products ul.pages li a {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    line-height: 42px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    font-weight: 700;
+    color: #626262;
+    transition: all .3s;
+  }
+
+  .products ul.pages li a:hover,
+  .products ul.pages li.active a {
+    background-color: #6e1d2b;
+    border-color: #6e1d2b;
+    color: #fff;
   }
